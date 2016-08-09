@@ -21,11 +21,9 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/mergeMap';
 
 if ('production' === ENV) {
-  // Production
-
+	// Production
 
 } else {
-  // Development
-  require('angular2-hmr');
-
+	// Development
+	require('angular2-hmr');
 }

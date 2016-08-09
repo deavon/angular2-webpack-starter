@@ -1,22 +1,21 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
-  selector: 'index',
-  styles: [`
+	selector: 'index',
+	styles: [`
     md-card{
-      margin: 25px;
+		margin: 25px;
     }
   `],
-  template: `
+	template: `
     <md-card>Hello from Index</md-card>
   `
 })
 export class Index {
-  constructor() {
+	constructor() {
+	}
 
-  }
-
-  ngOnInit() {
-    console.log('hello `Index` component');
-  }
+	ngOnInit() {
+		console.log('hello `Index` component');
+	}
 }
