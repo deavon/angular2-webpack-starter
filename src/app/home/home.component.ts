@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-
 import {AppState} from '../app.service';
 import {Title} from './title';
 import {XLarge} from './x-large';

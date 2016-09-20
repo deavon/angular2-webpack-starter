@@ -6,15 +6,9 @@ import {ROUTER_DIRECTIVES} from '@angular/router';
 	directives: [
 		...ROUTER_DIRECTIVES
 	],
-	template: `
-    <router-outlet></router-outlet>
-  `
+	template: `<router-outlet></router-outlet>`
 })
 export class Detail {
-	constructor() {
-
-	}
-
 	ngOnInit() {
 		console.log('hello `Detail` component');
 	}

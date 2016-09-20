@@ -7,7 +7,6 @@ import {
 import {Component} from '@angular/core';
 import {BaseRequestOptions, Http} from '@angular/http';
 import {MockBackend} from '@angular/http/testing';
-
 // Load the implementations that should be tested
 import {AppState} from '../app.service';
 import {Home} from './home.component';

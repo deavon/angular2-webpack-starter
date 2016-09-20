@@ -5,8 +5,7 @@ import {Http} from '@angular/http';
 export class Title {
 	value = 'Angular 2';
 
-	constructor(public http: Http) {
-	}
+	constructor(public http: Http) {}
 
 	getData() {
 		console.log('Title#getData(): Get Data');

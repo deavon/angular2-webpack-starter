@@ -9,7 +9,6 @@ import {TestComponentBuilder} from '@angular/compiler/testing';
 import {Component} from '@angular/core';
 import {BaseRequestOptions, Http} from '@angular/http';
 import {MockBackend} from '@angular/http/testing';
-
 // Load the implementations that should be tested
 import {XLarge} from './x-large.directive';
 
@@ -19,8 +18,7 @@ describe('x-large directive', () => {
 		template: '',
 		directives: [XLarge]
 	})
-	class TestComponent {
-	}
+	class TestComponent {}
 
 	it('should sent font-size to x-large', async(inject([TestComponentBuilder], (tcb) => {
 		return tcb.overrideTemplate(TestComponent, '<div x-large>Content</div>')
